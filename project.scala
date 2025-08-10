@@ -13,7 +13,7 @@ import scala.quoted.*
   /** In user-space, you get a warning
   * the type test for original.TypeInferrer.FromTuple[Int] cannot be checked at runtime because its type arguments can't be determined from original.TypeInferrer
   *
-  * which isn't terribly descriptive...
+  * in a world where resource was free, I think the warning would be more descriptive
   */
 
   val hmmm = origTest match
